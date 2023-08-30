@@ -34,7 +34,6 @@ class App
       print 'Has parent permission? [Y/N]: '
       permission = gets[0].capitalize
       permission = permission == 'Y'
-      # @people.push(Student.new(age, name, parent_permission: permission))
       @people << Student.new(nil, age, name, permission)
     when 2
       print 'Specialization: '
