@@ -1,4 +1,5 @@
 require_relative 'app'
+require 'pry'
 
 def list_options
   'Please choose an option by entering a number:
@@ -26,7 +27,7 @@ def option(option, app) # rubocop:disable Metrics/CyclomaticComplexity
   when 6
     app.list_rentals
   when 7
-    exit
+    app.stop
   else
     puts 'Invalid option, please type correct number!'
   end
