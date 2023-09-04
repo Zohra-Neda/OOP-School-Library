@@ -1,4 +1,5 @@
 require_relative 'app'
+require_relative 'option'
 
 def list_options
   'Please choose an option by entering a number:
@@ -11,36 +12,19 @@ def list_options
     7 - Exit'
 end
 
-def option(option, app) # rubocop:disable Metrics/CyclomaticComplexity
-  case option
-  when 1
-    app.list_books
-  when 2
-    app.list_people
-  when 3
-    app.create_person
-  when 4
-    app.create_book
-  when 5
-    app.create_rental
-  when 6
-    app.list_rentals
-  when 7
-    exit
-  else
-    puts 'Invalid option, please type correct number!'
-  end
+def intro
+  "Welcome to School Library App!\n\n"
 end
 
 def main
   app = App.new
 
-  puts "Welcome to School Library App!\n\n"
+  puts intro
 
   loop do
     puts list_options
     option = gets.chomp.to_i
-    option(option, app)
+    Option.option(option, app)
   end
 end
 
