@@ -32,9 +32,9 @@ class App
     case select_person
     when 1
       print 'Has parent permission? [Y/N]: '
-      permission = gets[0].capitalize
-      permission = permission == 'Y'
-      @people << Student.new(nil, age, name, permission)
+      permission = gets.chomp.upcase
+      parent_permission = permission == 'Y'
+      @people << Student.new(nil, age, name, parent_permission)
     when 2
       print 'Specialization: '
       specialization = gets.chomp

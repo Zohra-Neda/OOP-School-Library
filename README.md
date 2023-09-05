@@ -83,6 +83,7 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 - **[Provides a simple API to create and manipulate persons, students, and teachers.]**
 - **[Can be extended with additional features, such as more methods or attributes for the classes, or a user interface to interact with the program.]**
 - **[Refactor code by using SOLID]**
+- **[Preserve data]**
 
 
 
@@ -110,7 +111,6 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Store data]**
 - [ ] **[Write tests]**
 
 
