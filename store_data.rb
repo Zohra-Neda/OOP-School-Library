@@ -10,11 +10,8 @@ def store_people(app)
   people = []
   storage = Set.new
   app.people.each do |person|
-    identifier = if person.instance_of?(Student)
-                   "#{person.name}_#{person.age}"
-                 else
-                   "#{person.name}_#{person.specialization}"
-                 end
+    identifier = "#{person.name}_#{person.age}"
+    identifier = "#{person.name}_#{person.specialization}" if person.instance_of?(Teacher)
     next if storage.include?(identifier)
 
     data = {
@@ -23,19 +20,14 @@ def store_people(app)
       type: person.class
     }
 
-    if person.instance_of?(Student)
-      data[:parent_permission] = person.parent_permission ? true : false
-    else
-      data[:specialization] = person.specialization
-    end
+    data[:parent_permission] = !person.parent_permission if person.instance_of?(Student)
+    data[:specialization] = person.specialization if person.instance_of?(Teacher)
 
-    people.push(data)
+    people << data
     storage.add(identifier)
   end
 
-  File.open('people.json', 'w') do |file|
-    file.puts(JSON.generate(people))
-  end
+  File.write('people.json', "#{JSON.generate(people)}\n")
 end
 
 def store_books(app)
