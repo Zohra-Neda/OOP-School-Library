@@ -1,5 +1,9 @@
+require './retrieve_data'
+require './store_data'
+
 class Option
   def self.option(option, app) # rubocop:disable Metrics/CyclomaticComplexity
+    retrieve_data(app)
     case option
     when 1
       app.list_books
@@ -14,6 +18,7 @@ class Option
     when 6
       app.list_rentals
     when 7
+      store_data(app)
       app.stop
     else
       puts 'Invalid option, please type correct number!'
