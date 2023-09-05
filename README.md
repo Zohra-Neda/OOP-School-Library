@@ -46,8 +46,6 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -71,6 +69,38 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 ### Tech Stack <a name="tech-stack"></a>
 
 - **Ruby**
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Git/GitHub;
+- Optional ( IDE installed in your machine ) - recommended IDE: Vscode;
+- Ruby Installed in your machine;
+
+### Setup
+
+- To clone this repo:
+  - Open the Terminal(Mac/Linux) or the Cmd (Windows);
+  - Navigate to where you want to paste the Repo folder;
+  - Run the following commands
+```
+git clone https://github.com/Zohra-Neda/OOP-School-Library.git
+cd OOP-School-Library
+```
+
+
+### Install
+```
+  bundle install
+```  
+
+### Usage
+```
+ruby main.rb
+```
 
 <!-- Features -->
 
