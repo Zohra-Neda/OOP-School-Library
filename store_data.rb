@@ -1,5 +1,3 @@
-require 'json'
-
 def store_data(app)
   store_people(app)
   store_books(app)

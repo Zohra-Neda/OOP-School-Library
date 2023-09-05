@@ -12,6 +12,7 @@ class App
     @people = []
     @books = []
     @rentals = []
+    retrieve_data(self)
   end
 
   def list_books

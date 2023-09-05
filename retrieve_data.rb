@@ -14,7 +14,7 @@ def retrieve_people(app)
       student = Student.new('Unknown', person['age'], person['name'], parent_permission: person['permission'])
       app.people.push(student)
     else
-      teacher = Teacher.new(person['specialization'], person['age'], person['name'])
+      teacher = Teacher.new(person['age'], person['name'], person['specialization'])
       app.people.push(teacher)
     end
   end

@@ -3,7 +3,6 @@ require './store_data'
 
 class Option
   def self.option(option, app) # rubocop:disable Metrics/CyclomaticComplexity
-    retrieve_data(app)
     case option
     when 1
       app.list_books
