@@ -82,6 +82,7 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 - **[Demonstrates inheritance, encapsulation, and polymorphism in Ruby.]**
 - **[Provides a simple API to create and manipulate persons, students, and teachers.]**
 - **[Can be extended with additional features, such as more methods or attributes for the classes, or a user interface to interact with the program.]**
+- **[Refactor code by using SOLID]**
 
 
 
@@ -97,6 +98,11 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 - Twitter: [@zohra_neda](https://twitter.com/zohra_neda)
 - LinkedIn: [zohra-neda](https://www.linkedin.com/in/zohra-neda)
 
+👤 **Cosmas wasswa**
+
+- GitHub: [@cosywasswa](https://github.com/cosywasswa)
+- LinkedIn: [cosmas-wasswa](https://www.linkedin.com/in/cosmas-wasswa)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -104,7 +110,9 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Add more and complex classes ]**
+- [ ] **[Store data]**
+- [ ] **[Write tests]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
