@@ -46,8 +46,6 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -72,6 +70,38 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 
 - **Ruby**
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Git/GitHub;
+- Optional ( IDE installed in your machine ) - recommended IDE: Vscode;
+- Ruby Installed in your machine;
+
+### Setup
+
+- To clone this repo:
+  - Open the Terminal(Mac/Linux) or the Cmd (Windows);
+  - Navigate to where you want to paste the Repo folder;
+  - Run the following commands
+```
+git clone https://github.com/Zohra-Neda/OOP-School-Library.git
+cd OOP-School-Library
+```
+
+
+### Install
+```
+  bundle install
+```  
+
+### Usage
+```
+ruby main.rb
+```
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -83,6 +113,7 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 - **[Provides a simple API to create and manipulate persons, students, and teachers.]**
 - **[Can be extended with additional features, such as more methods or attributes for the classes, or a user interface to interact with the program.]**
 - **[Refactor code by using SOLID]**
+- **[Preserve data]**
 
 
 
@@ -110,7 +141,6 @@ The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, a
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Store data]**
 - [ ] **[Write tests]**
 
 
