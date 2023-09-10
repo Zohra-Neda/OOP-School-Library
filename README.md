@@ -46,8 +46,8 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -101,6 +101,10 @@ cd OOP-School-Library
 ```
 ruby main.rb
 ```
+### Run tests
+```
+rspec spec
+```
 
 <!-- Features -->
 
@@ -114,6 +118,7 @@ ruby main.rb
 - **[Can be extended with additional features, such as more methods or attributes for the classes, or a user interface to interact with the program.]**
 - **[Refactor code by using SOLID]**
 - **[Preserve data]**
+- **[Unit tests]**
 
 
 
@@ -136,15 +141,6 @@ ruby main.rb
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **[Write tests]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
